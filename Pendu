@@ -1,0 +1,21 @@
+import random
+mot=["cow","bear","sheep"]
+secret=(random.choice(mot))
+
+for i in range(1,4):
+    guess=input("Guess a letter: ")
+    if guess==bool(1) and guess in (secret):
+        print(guess+" is correct!")
+    else :
+        print("Nope!")
+
+word=input("Write the word!: ")
+
+for inter in range(1,3):
+    if (word==secret):
+        print("You win!")
+        break
+    else:
+        word=input("Try again. Try " + str(inter)+ " out of 3:")
+
+print("Game Over")
