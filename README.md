@@ -1,2 +1,2 @@
-# Pythong
+# Python
 Python and algorithm mini projects
