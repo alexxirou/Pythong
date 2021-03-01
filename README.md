@@ -1,2 +1,2 @@
 # Python
-Python and algorithm mini projects
+Mini programs using python for Math and Networking
